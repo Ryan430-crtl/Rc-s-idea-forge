@@ -72,15 +72,48 @@
           "src/main/java/net/mcreator/rcsideasforge/block/ElectrumrawstoneblockBlock.java"
         ]
       }
+    },
+    {
+      "name": "Electrumrawdeepslateblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumrawdeepslateblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rcsideasforge/block/ElectrumrawdeepslateblockBlock.java",
+          "src/main/resources/assets/rcs_ideas_forge/models/item/electrumrawdeepslateblock.json",
+          "src/main/resources/assets/rcs_ideas_forge/models/block/electrumrawdeepslateblock.json",
+          "src/main/resources/data/rcs_ideas_forge/forge/biome_modifier/electrumrawdeepslateblock_biome_modifier.json",
+          "src/main/resources/data/rcs_ideas_forge/worldgen/configured_feature/electrumrawdeepslateblock.json",
+          "src/main/resources/data/rcs_ideas_forge/loot_tables/blocks/electrumrawdeepslateblock.json",
+          "src/main/resources/data/rcs_ideas_forge/worldgen/placed_feature/electrumrawdeepslateblock.json",
+          "src/main/resources/assets/rcs_ideas_forge/blockstates/electrumrawdeepslateblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Electrumrawsmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumrawsmelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rcs_ideas_forge/recipes/electrumrawsmelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Electrumrawdeepslateblock",
       "~CUSTOM:Electrumrawstoneblock"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Electrumrawdeepslateblock",
       "~CUSTOM:Electrumrawstoneblock"
     ]
   },
@@ -88,6 +121,7 @@
   "language_map": {
     "en_us": {
       "block.rcs_ideas_forge.electrumrawstoneblock": "Electrum Minerai",
+      "block.rcs_ideas_forge.electrumrawdeepslateblock": "Electrum Minerai",
       "block.rcs_ideas_forge.electrumblock": "Electrumblock",
       "item.rcs_ideas_forge.electrumingot": "Electrumingot",
       "item.rcs_ideas_forge.electrumraw": "Electrumraw"

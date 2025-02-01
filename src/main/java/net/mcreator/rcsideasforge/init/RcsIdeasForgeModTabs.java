@@ -24,6 +24,7 @@ public class RcsIdeasForgeModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 
 			tabData.accept(RcsIdeasForgeModBlocks.ELECTRUMRAWSTONEBLOCK.get().asItem());
+			tabData.accept(RcsIdeasForgeModBlocks.ELECTRUMRAWDEEPSLATEBLOCK.get().asItem());
 
 		}
 	}

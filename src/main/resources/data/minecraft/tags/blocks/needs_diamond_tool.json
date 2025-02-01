@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "rcs_ideas_forge:electrumrawdeepslateblock",
     "rcs_ideas_forge:electrumrawstoneblock"
   ]
 }

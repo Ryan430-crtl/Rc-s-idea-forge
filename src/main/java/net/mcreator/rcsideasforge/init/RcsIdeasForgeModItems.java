@@ -22,6 +22,7 @@ public class RcsIdeasForgeModItems {
 	public static final RegistryObject<Item> ELECTRUMBLOCK = block(RcsIdeasForgeModBlocks.ELECTRUMBLOCK);
 	public static final RegistryObject<Item> ELECTRUMRAW = REGISTRY.register("electrumraw", () -> new ElectrumrawItem());
 	public static final RegistryObject<Item> ELECTRUMRAWSTONEBLOCK = block(RcsIdeasForgeModBlocks.ELECTRUMRAWSTONEBLOCK);
+	public static final RegistryObject<Item> ELECTRUMRAWDEEPSLATEBLOCK = block(RcsIdeasForgeModBlocks.ELECTRUMRAWDEEPSLATEBLOCK);
 
 	// Start of user code block custom items
 	// End of user code block custom items
