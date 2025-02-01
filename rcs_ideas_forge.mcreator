@@ -84,10 +84,7 @@
           "src/main/java/net/mcreator/rcsideasforge/block/ElectrumrawdeepslateblockBlock.java",
           "src/main/resources/assets/rcs_ideas_forge/models/item/electrumrawdeepslateblock.json",
           "src/main/resources/assets/rcs_ideas_forge/models/block/electrumrawdeepslateblock.json",
-          "src/main/resources/data/rcs_ideas_forge/forge/biome_modifier/electrumrawdeepslateblock_biome_modifier.json",
-          "src/main/resources/data/rcs_ideas_forge/worldgen/configured_feature/electrumrawdeepslateblock.json",
           "src/main/resources/data/rcs_ideas_forge/loot_tables/blocks/electrumrawdeepslateblock.json",
-          "src/main/resources/data/rcs_ideas_forge/worldgen/placed_feature/electrumrawdeepslateblock.json",
           "src/main/resources/assets/rcs_ideas_forge/blockstates/electrumrawdeepslateblock.json"
         ]
       }
@@ -126,6 +123,30 @@
       "metadata": {
         "files": [
           "src/main/resources/data/rcs_ideas_forge/recipes/electrumnuggetrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Electrumnuggetrecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumnuggetrecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rcs_ideas_forge/recipes/electrumnuggetrecipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Electrumblockrecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumblockrecipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rcs_ideas_forge/recipes/electrumblockrecipe_2.json"
         ]
       }
     }

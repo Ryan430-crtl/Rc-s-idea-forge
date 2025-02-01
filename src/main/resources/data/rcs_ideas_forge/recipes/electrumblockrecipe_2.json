@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "rcs_ideas_forge:electrumblock"
+    }
+  },
+  "result": {
+    "item": "rcs_ideas_forge:electrumingot",
+    "count": 9
+  }
+}
