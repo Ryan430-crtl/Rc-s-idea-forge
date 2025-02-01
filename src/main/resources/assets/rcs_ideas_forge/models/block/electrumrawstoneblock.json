@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rcs_ideas_forge:block/electrum_bluck",
+    "particle": "rcs_ideas_forge:block/electrum_bluck"
+  },
+  "render_type": "solid"
+}

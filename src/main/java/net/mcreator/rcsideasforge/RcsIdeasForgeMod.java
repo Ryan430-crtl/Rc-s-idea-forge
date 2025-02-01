@@ -17,6 +17,10 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.rcsideasforge.init.RcsIdeasForgeModTabs;
+import net.mcreator.rcsideasforge.init.RcsIdeasForgeModItems;
+import net.mcreator.rcsideasforge.init.RcsIdeasForgeModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -36,6 +40,12 @@ public class RcsIdeasForgeMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		RcsIdeasForgeModBlocks.REGISTRY.register(bus);
+
+		RcsIdeasForgeModItems.REGISTRY.register(bus);
+
+		RcsIdeasForgeModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

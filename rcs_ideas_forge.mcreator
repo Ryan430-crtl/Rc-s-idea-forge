@@ -40,16 +40,57 @@
           "src/main/resources/data/rcs_ideas_forge/recipes/electrumblockrecipe.json"
         ]
       }
+    },
+    {
+      "name": "Electrumraw",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumraw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rcsideasforge/item/ElectrumrawItem.java",
+          "src/main/resources/assets/rcs_ideas_forge/models/item/electrumraw.json"
+        ]
+      }
+    },
+    {
+      "name": "Electrumrawstoneblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumrawstoneblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rcs_ideas_forge/models/block/electrumrawstoneblock.json",
+          "src/main/resources/data/rcs_ideas_forge/forge/biome_modifier/electrumrawstoneblock_biome_modifier.json",
+          "src/main/resources/assets/rcs_ideas_forge/models/item/electrumrawstoneblock.json",
+          "src/main/resources/assets/rcs_ideas_forge/blockstates/electrumrawstoneblock.json",
+          "src/main/resources/data/rcs_ideas_forge/worldgen/placed_feature/electrumrawstoneblock.json",
+          "src/main/resources/data/rcs_ideas_forge/loot_tables/blocks/electrumrawstoneblock.json",
+          "src/main/resources/data/rcs_ideas_forge/worldgen/configured_feature/electrumrawstoneblock.json",
+          "src/main/java/net/mcreator/rcsideasforge/block/ElectrumrawstoneblockBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:Electrumrawstoneblock"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Electrumrawstoneblock"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "block.rcs_ideas_forge.electrumrawstoneblock": "Electrum Minerai",
       "block.rcs_ideas_forge.electrumblock": "Electrumblock",
-      "item.rcs_ideas_forge.electrumingot": "Electrumingot"
+      "item.rcs_ideas_forge.electrumingot": "Electrumingot",
+      "item.rcs_ideas_forge.electrumraw": "Electrumraw"
     }
   },
   "foldersRoot": {
