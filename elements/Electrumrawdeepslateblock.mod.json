@@ -34,12 +34,12 @@
       }
     ],
     "customProperties": [],
-    "name": "Electrum Minerai",
+    "name": "Electrum Minerai deepslates",
     "specialInformation": {
       "fixedValue": []
     },
     "hardness": 5.0,
-    "resistance": 10.0,
+    "resistance": 15.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTabs": [

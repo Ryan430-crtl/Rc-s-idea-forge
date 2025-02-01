@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rcsideasforge.item.ElectrumrawItem;
+import net.mcreator.rcsideasforge.item.ElectrumnuggetItem;
 import net.mcreator.rcsideasforge.item.ElectrumingotItem;
 import net.mcreator.rcsideasforge.RcsIdeasForgeMod;
 
@@ -23,6 +24,7 @@ public class RcsIdeasForgeModItems {
 	public static final RegistryObject<Item> ELECTRUMRAW = REGISTRY.register("electrumraw", () -> new ElectrumrawItem());
 	public static final RegistryObject<Item> ELECTRUMRAWSTONEBLOCK = block(RcsIdeasForgeModBlocks.ELECTRUMRAWSTONEBLOCK);
 	public static final RegistryObject<Item> ELECTRUMRAWDEEPSLATEBLOCK = block(RcsIdeasForgeModBlocks.ELECTRUMRAWDEEPSLATEBLOCK);
+	public static final RegistryObject<Item> ELECTRUMNUGGET = REGISTRY.register("electrumnugget", () -> new ElectrumnuggetItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

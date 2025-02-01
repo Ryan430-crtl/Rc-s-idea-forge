@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 
 public class ElectrumrawdeepslateblockBlock extends Block {
 	public ElectrumrawdeepslateblockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(5f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(5f, 15f).requiresCorrectToolForDrops());
 	}
 
 	@Override

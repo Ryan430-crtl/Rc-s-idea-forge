@@ -103,6 +103,31 @@
           "src/main/resources/data/rcs_ideas_forge/recipes/electrumrawsmelting.json"
         ]
       }
+    },
+    {
+      "name": "Electrumnugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumnugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rcsideasforge/item/ElectrumnuggetItem.java",
+          "src/main/resources/assets/rcs_ideas_forge/models/item/electrumnugget.json"
+        ]
+      }
+    },
+    {
+      "name": "Electrumnuggetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumnuggetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rcs_ideas_forge/recipes/electrumnuggetrecipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -121,7 +146,8 @@
   "language_map": {
     "en_us": {
       "block.rcs_ideas_forge.electrumrawstoneblock": "Electrum Minerai",
-      "block.rcs_ideas_forge.electrumrawdeepslateblock": "Electrum Minerai",
+      "block.rcs_ideas_forge.electrumrawdeepslateblock": "Electrum Minerai deepslates",
+      "item.rcs_ideas_forge.electrumnugget": "Electrumnugget",
       "block.rcs_ideas_forge.electrumblock": "Electrumblock",
       "item.rcs_ideas_forge.electrumingot": "Electrumingot",
       "item.rcs_ideas_forge.electrumraw": "Electrumraw"
