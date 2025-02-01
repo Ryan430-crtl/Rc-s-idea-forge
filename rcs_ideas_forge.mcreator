@@ -1,11 +1,56 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Electrumingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rcsideasforge/item/ElectrumingotItem.java",
+          "src/main/resources/assets/rcs_ideas_forge/models/item/electrumingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Electrumblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rcs_ideas_forge/loot_tables/blocks/electrumblock.json",
+          "src/main/resources/assets/rcs_ideas_forge/models/block/electrumblock.json",
+          "src/main/java/net/mcreator/rcsideasforge/block/ElectrumblockBlock.java",
+          "src/main/resources/assets/rcs_ideas_forge/models/item/electrumblock.json",
+          "src/main/resources/assets/rcs_ideas_forge/blockstates/electrumblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Electrumblockrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrumblockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rcs_ideas_forge/recipes/electrumblockrecipe.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.rcs_ideas_forge.electrumblock": "Electrumblock",
+      "item.rcs_ideas_forge.electrumingot": "Electrumingot"
+    }
   },
   "foldersRoot": {
     "name": "~",
